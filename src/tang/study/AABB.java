@@ -110,8 +110,7 @@ public class AABB {
 							glVertex2f(point.x - size, point.y + size);
 						glEnd();
 					} else {
-						//how do i even reach this if determinant < 0 is false?
-						System.out.println((determinant < 0));
+						
 					}
 				}
 				
