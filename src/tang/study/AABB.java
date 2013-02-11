@@ -100,15 +100,15 @@ public class AABB {
 					if(determinant < 0) {
 						vertCount++;
 
-						glBegin(GL_LINES);
-							int size = 5;
-							glColor3f(0.5f, 1.0f, 0.5f);
-							glVertex2f(point.x - size, point.y - size);
-							glVertex2f(point.x + size, point.y + size);
-							
-							glVertex2f(point.x + size, point.y - size);
-							glVertex2f(point.x - size, point.y + size);
-						glEnd();
+//						glBegin(GL_LINES);
+//							int size = 5;
+//							glColor3f(0.5f, 1.0f, 0.5f);
+//							glVertex2f(point.x - size, point.y - size);
+//							glVertex2f(point.x + size, point.y + size);
+//							
+//							glVertex2f(point.x + size, point.y - size);
+//							glVertex2f(point.x - size, point.y + size);
+//						glEnd();
 					} else {
 						
 					}
